@@ -1,0 +1,13 @@
+{% extends 'cmpbltrapp/cmpbltrapp_base.html' %}
+{% block body_block %}
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Welcome to the Archetype Detail Page!</h1>
+      <h2>Archetype details:</h2>
+      <p>Id: {{mp_archetype_detail.id}}</p>
+      <p>Gid: {{mp_archetype_detail.gid}}</p>
+      <p>Create Date: {{mp_archetype_detail.crtdate}}</p>
+      <p>Created By: {{mp_archetype_detail.crtby}}</p>
+    </div>
+  </div>
+{% endblock %}
