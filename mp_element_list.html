@@ -1,9 +1,0 @@
-{%  extends "cmpbltrapp/cmpbltrapp_base.html" %}
-{% block body_block %}
-  <h1>Welcome to the list of elements!</h1>
-    <ol>
-      {% for mpe in mp_elems %}
-        <h2><li><a href="{{ mpe.fldname }}">{{ mpe.fldname }}</a></li></h2>
-      {% endfor %}
-    </ol>
-{% endblock %}
