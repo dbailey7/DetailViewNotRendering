@@ -1,9 +1,0 @@
-{%  extends "cmpbltrapp/cmpbltrapp_base.html" %}
-{% block body_block %}
-  <h1>Welcome to the list of archetypes!</h1>
-    <ol>
-      {% for mpa in mp_archs %}
-        <h2><li><a href="{{ mpa.id }}">{{ mpa.id }}</a></li></h2>
-      {% endfor %}
-    </ol>
-{% endblock %}
